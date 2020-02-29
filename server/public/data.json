@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1, 
+        "title": "Apple iPhone 11", 
+        "imageUrl": "https://fdn.gsmarena.com/imgroot/reviews/19/apple-iphone-11/lifestyle/-1024w2/gsmarena_004.jpg", 
+        "description": "The iPhone 11 is a smartphone designed, developed, and marketed by Apple Inc. It is the thirteenth generation lower-priced iPhone, succeeding the iPhone XR. It was unveiled on September 10, 2019, alongside the higher-end iPhone 11 Pro flagship at the Steve Jobs Theater in Apple Park, Cupertino by Apple CEO Tim Cook.",
+        "launchDate": "20/09/2019",
+        "price": 769
+    }, 
+    {
+        "id": 2, 
+        "title": "OnePlus 7T Pro", 
+        "imageUrl": "https://fdn.gsmarena.com/imgroot/reviews/19/one-plus-7t-pro/lifestyle/-1024w2/gsmarena_001.jpg", 
+        "description": "The OnePlus 7T and 7T Pro are Android-based smartphones manufactured by OnePlus. The 7T was unveiled on 26 September 2019, and the 7T Pro was unveiled on 10 October 2019.", 
+        "launchDate": "17/10/2019",
+        "price": 739
+    }, 
+    {
+        "id": 3, 
+        "title": "Huawei P30 Pro", 
+        "imageUrl": "https://fdn.gsmarena.com/imgroot/reviews/19/huawei-p30-pro-12/gal/-1024w2/gsmarena_012.jpg", 
+        "description": "The Huawei P30 and P30 Pro are Android smartphones manufactured by Huawei. Unveiled on 26 March 2019, it succeeds the Huawei P20 in the company's P series line.",
+        "launchDate": "26/03/2019",
+        "price": 537
+    }, 
+    {
+        "id": 4, 
+        "title": "Nokia 3310", 
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Nokia_3310_blue.jpg/150px-Nokia_3310_blue.jpg", 
+        "description": "The Nokia 3310 is a GSM mobile phone announced on 1 September 2000,[2] and released in the fourth quarter of the year, replacing the popular Nokia 3210. It sold very well, being one of the most successful phones with 126 million units sold worldwide,[3] and being one of Nokia's most iconic devices.", 
+        "launchDate": "01/09/2000",
+        "price": 20
+    }
+]
