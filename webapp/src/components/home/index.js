@@ -22,11 +22,13 @@ const Home = props => {
     return (
         <React.Fragment>
             <main> 
-                <button onClick={() => decreasePage()}>Prev</button>
-                <p style={{color: 'red'}}>{page}</p>
-                <button onClick={() => incrementPage()}>Next</button>
-                <PhoneTable phoneList={phoneList}/>
-                <Pagination></Pagination>
+                <div className="container">
+                    <PhoneTable phoneList={phoneList}/>
+                    <Pagination></Pagination>
+                    <button onClick={() => decreasePage()}>Prev</button>
+                    <p style={{color: 'red'}}>{page}</p>
+                    <button onClick={() => incrementPage()}>Next</button>
+                </div>
             </main>
 
         </React.Fragment>

@@ -7,5 +7,5 @@ exports.getAllPhones = (req, res, next) => {
 
 exports.getOnePhone = (req, res, next) => {
     const phoneId = req.params.id;
-    res.send(phones.filter(el => el.id == phoneId));
+    res.send(phones.find(el => el.id == phoneId));
 }

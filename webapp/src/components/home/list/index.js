@@ -12,7 +12,10 @@ const PhoneTable = ({ phoneList }) => {
                 <td>{phone.description}</td>
                 <td>{phone.launchDate}</td>
                 <td>{phone.price}</td>
-                <td><Link to={`/phones/${phone.id}`}><button type="button" className="btn btn-info">Detalle</button></Link></td>
+                <td><Link to={{
+                    pathname: `/phones/${phone.id}`,
+                    phoneProp: phone
+                }}><button type="button" className="btn btn-info">Detalle</button></Link></td>
             </tr>
         ))
     }
